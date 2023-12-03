@@ -1,0 +1,1059 @@
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@400;500;600;700;800;900&amp;display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Anybody';
+}
+h2, h3{
+    font-family: 'DynaPuff';
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.align-items{
+   align-items: center;
+}
+.text-align{
+   text-align: center;
+}
+.margin-top{
+   margin-top: 70px;
+}
+
+.margin-bottom{
+   margin-bottom: 15px;
+}
+.container{
+    padding: 30px;
+}
+/* Header Section Start */
+
+.top-bar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.899);
+}
+
+.col-top-bar{
+    width: 50%;
+    padding: 8px 0px;
+    text-align: center;
+}
+
+.col-top-bar a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #f1f3f5;
+   
+}
+
+.col-top-bar i{
+    font-size: 16px;
+    color: #5a7fc4;
+    margin: 0px 10px;
+}
+
+.bottom-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 14px 0px;
+}
+
+.header-item{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+ul li{
+    list-style: none;
+}
+
+.header-item li a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0px 20px;
+    position: relative;
+}
+
+.header-item li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    background-color: #5a7fc4;
+    transition: .4s;
+}
+
+.header-item li a:hover::after{
+    width: 100%;
+}
+
+.bottom-bar i{
+    display: none;
+}
+
+.dropdown{
+   overflow: hidden;
+}
+.dropdown-list{
+   display: none;
+   position: absolute;
+   background-color: #f2ecec;
+   padding: 16px;
+}
+.dropdown:hover .dropdown-list{
+   display: block;
+   
+}
+.dropdown .dropdown-list a{
+   display: block;
+   margin: 10px;
+   width: 200px;
+   font-size: 22px;
+}
+
+/* Header Section End */
+
+/* Main-banner Section Start */
+
+#main-banner{
+   padding: 70px 0px;
+   
+}
+
+.col-main-banner{
+   width: 50%;
+   padding: 30px;
+}
+
+.col-main-banner h2{
+   font-size: 30px;
+}
+
+.col-main-banner h1{
+   font-size: 40px;
+}
+
+.col-main-banner form input{
+   width: 70%;
+   margin-top: 10px;
+}
+.banner-item{
+   padding: 16px;
+}
+
+.banner-truck img{
+   width: 100%;
+   animation-name: banner-truck;
+   animation-duration: 4s;
+   animation-iteration-count: infinite;
+   position: relative;
+}
+
+.booking-form{
+   border: 2px solid #5a7fc4;
+   border-radius: 0px 45px;
+   margin-top: 50px;
+   padding: 16px;
+}
+@keyframes banner-truck{
+   0% {right: 0px; top: 0px;}
+   50% {right: 80px; top: 0px;}
+   100% {right: 0px; top: 0px;}
+}
+/* Main-banner Section End */
+/* Transport Section Start */
+#transport{
+   padding: 70px 0px;
+}
+.transport-heading{
+   text-align: center;
+}
+
+
+.transport-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.transport-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+#transport p{
+   color: #666;
+   font-size: 18px;
+   text-align: justify;
+   margin-top: 25px;
+   line-height: 35px;
+   
+}
+/* Transport Section End */
+/* Services Section Start */
+ #services{
+    padding: 70px 0px;
+ }
+  
+ .services-heading{
+    text-align: center;
+ }
+
+
+ .services-heading h2{
+    color: #5a7fc4;
+    font-size: 40px;
+    font-weight: 600;
+ }
+
+ .services-heading h4{
+    font-size: 25px;
+    margin-top: 12px;
+    font-weight: 600;
+ }
+
+ .symbol{
+    margin-bottom: 25px;
+ }
+ .service-box{
+    margin-top: 60px;
+ }
+
+ .col-service{
+
+    width: 33.3%;
+    padding: 18px;
+ }
+ 
+
+ .truck-icon img{
+   position: relative;
+   animation-name: service-load;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+ }
+
+ @keyframes service-load{
+
+    0% {left: 80px; top: 0px;}
+    50% {left: 120px; top: 0px;}
+    100% {left: 80px; top: 0px;}
+ }
+ .load{
+   
+    border-radius: 0px 45px;
+    padding: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform .5s;
+
+ }
+
+ .load:hover{
+     
+    background-color: rgba(0, 0, 0, 0.899);
+    transform: translateY(-10px);
+ }
+ .load:hover p{
+    color: #f1f3f5;
+ }
+ 
+ .load:hover button{
+    background-color: #f1f3f5;
+    color: rgba(0, 0, 0, 0.899);
+ }
+ .load h3{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    color: #5a7fc4;
+ }
+
+ .load p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 18px;
+    color: #666;
+    line-height: 25px;
+ }
+ .button{
+    text-align: center;
+    margin-top: 22px;
+ }
+
+ button{
+    background-color: #5a7fc4;
+    color: #f1f3f5;
+    font-size: 18px;
+    padding: 14px 24px;
+    
+    border-radius: 30px;
+ }
+
+ button:hover{
+    cursor: pointer;
+    background-color: #f1f3f5;
+    color: rgba(0, 0, 0, 0.899);
+    transition: .5s;
+ }
+
+/* Services Section End */
+
+/* Advantage Section Start */
+ #advantages{
+   padding: 70px 0px;
+ }
+
+ .advantages-heading{
+   text-align: center;
+}
+
+
+ .advantages-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.advantages-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.col-advantage{
+   width: 50%;
+   padding: 25px;
+}
+
+.advantage-item{
+   margin-top: 60px;
+}
+
+.advantage-item h3{
+   color: #5a7fc4;
+   font-size: 30px;
+   text-align: center;
+}
+
+.advantage-item h3 i{
+   font-size: 30px;
+   color: rgba(0, 0, 0, 0.899);
+   margin: 0px 20px;
+   
+}
+.advantage-item p{
+   margin-top: 60px;
+   color: #666;
+   font-size: 20px;
+   text-align: justify;
+   line-height: 30px;
+}
+
+.price img{
+   width: 100%;
+   border-radius: 0px 45px;
+
+   transition: transform .3s;
+}
+
+.price img:hover{
+   transform: scale(1.1);
+  
+}
+
+/* Advantage Section End */
+
+/* Routes Section Start */
+#routes{
+   padding: 70px 0px;
+}
+
+.routes-heading{
+   text-align: center;
+}
+
+
+ .routes-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.routes-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.col-route{
+   width: 25%;
+   padding: 18px;
+}
+
+.route-list{
+   margin-top: 60px;
+   border: 1px solid #5a7fc4;
+   padding: 12px;
+   border-radius: 0px 45px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   transition: transform .3s;
+}
+.route-list:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
+
+.route-list h5{
+   font-size: 22px;
+   text-align: center;
+   color: rgba(0, 0, 0, 0.899);
+}
+
+.route-list h5 i{
+   margin: 0px 20px;
+   color: #5a7fc4;
+   font-size: 30px;
+}
+.route-list h6{
+   color: #666;
+   font-size: 18px;
+   margin-top: 15px;
+   text-align: center;
+}
+
+.route-list a{
+   text-decoration: none;
+}
+/* Routes Section End */
+
+/* Sub-banner Section Start */
+
+#sub-banner{
+   padding: 70px 0px;
+}
+
+.col-sub-banner{
+   width: 50%;
+   padding: 20px 0px;
+}
+
+
+.col-sub-banner h2{
+   font-size: 50px;
+}
+
+
+.truck-sub-banner{
+   
+   position: relative;
+   animation-name: truck-sub-banner;
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+}
+
+@keyframes truck-sub-banner{
+   0% { left: 0px; top: 0px;}
+   50% {left: 85px; top: 0px;}
+   100%  {left: 0px; top: 0px;}
+}
+
+.sub-banner-item{
+   border: 2px solid #5a7fc4;
+   border-radius: 0px 45px;
+}
+/* Sub-banner Section End */
+
+/* Footer Section Start */
+#footer{
+   background-color: rgba(0, 0, 0, 0.899);
+   color: #f1f3f5;
+}
+.footer-logo{
+   padding: 30px;
+}
+
+.footer-item{
+   margin-top: 25px;
+}
+.col-footer{
+   width: 33.3%;
+   padding: 30px;
+}
+
+.col-footer h2{
+   font-size: 30px;
+   position: relative;
+}
+
+.col-footer h2::after{
+   content: '';
+   width: 100%;
+   height: 3px;
+   background-color: #5a7fc4;
+   position: absolute;
+   left: 0px;
+   bottom: -8px;
+}
+.footer-list{
+   margin-top: 70px;
+}
+
+
+.footer-list a{
+   text-decoration: none;
+   font-size: 18px;
+   color: #f1f3f5;
+
+}
+.footer-list a:hover{
+   color: #5a7fc4;
+}
+.footer-list p{
+   font-size: 18px;
+   color: #f1f3f5;
+   
+}
+
+.footer-list div{
+   margin: 10px 0px;
+}
+
+.footer-list i{
+   color: #5a7fc4;
+   font-size: 18px;
+   padding: 0px 10px;
+}
+
+form div input{
+   width: 100%;
+   padding: 14px;
+   border-radius: 25px;
+   background-color: #666;
+   border: 2px solid #5a7fc4;
+   margin-bottom: 10px;
+}
+form div input::placeholder{
+   color: #f1f3f5;
+   font-size: 16px;
+}
+
+form textarea{
+   width: 100%;
+   padding: 14px;
+   border-radius: 25px;
+   background-color: #666;
+   border: 2px solid #5a7fc4;
+}
+form textarea::placeholder{
+   color:#f1f3f5;
+   font-size: 16px;
+}
+
+.social{
+   margin-top: 185px;
+}
+
+.social i{
+   font-size: 50px;
+   color: #5a7fc4;
+}
+/* Footer Section End */
+
+/* Copyright Section Start */
+#copyright{
+   background-color: #666;
+   color: #f1f3f5;
+   
+}
+
+#copyright h4{
+   font-size: 20px;
+   text-align: center;
+   padding: 14px 0px;
+}
+
+#copyright h4 a{
+   text-decoration: none;
+   color: #7599db;
+   font-size: 20px;
+}
+/* Copyright Section End */
+
+
+
+
+/* ---------------------------------------ABOUT PAGE  START-----------------------------*/
+ 
+
+/* About Banner Section Start */
+.about-banner{
+   padding: 70px 0px;
+}
+.col-about-banner{
+   width: 50%;
+   padding: 30px;
+}
+.about-truck img{
+   width: 100%;
+   border-radius: 0px 50px;
+}
+.about-banner-heading h2{
+   font-size: 65px;
+   color: rgba(0, 0, 0, 0.899);
+   text-align: center;
+   
+   border-bottom: 3px solid #5a7fc4;
+}
+.about-banner-heading p a{
+   
+   text-decoration: none;
+   color: #666;
+   font-size: 20px;
+}
+.about-banner-heading p{
+   text-align: center;
+   margin-top: 15px;
+}
+.about-banner-heading p i{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #666;
+}
+
+/* About Banner Section End */
+
+
+/*Choose Section Start */
+
+#choose{
+   padding: 70px 0px;
+}
+ 
+.choose-heading{
+   text-align: center;
+}
+
+
+.choose-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.choose-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.symbol{
+   margin-bottom: 25px;
+}
+
+.col-choose{
+   width: 33.3%;
+   padding: 30px;
+}
+
+.choose-list{
+   padding: 35px;
+   text-align: center;
+   margin-top: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 100%;
+   transition: transform .3s;
+}
+
+.choose-list:hover{
+   transform: scale(1.1);
+}
+
+.choose-list h3{
+   color: #5a7fc4;
+   font-size: 30px;
+}
+
+/* Choose Section End */
+
+/* ---------------------------------------ABOUT PAGE  END-----------------------------*/
+
+
+/* ---------------------------------------CONTACT PAGE  START-----------------------------*/
+
+.contact-banner{
+   padding: 70px 0px;
+}
+.col-contact-banner{
+   width: 50%;
+   padding: 30px;
+}
+.contact-image img{
+   width: 100%;
+   border-radius: 0px 50px;
+}
+.contact-banner-heading h2{
+   font-size: 65px;
+   color: rgba(0, 0, 0, 0.899);
+   text-align: center;
+   
+   border-bottom: 3px solid #5a7fc4;
+}
+.contact-banner-heading p a{
+   
+   text-decoration: none;
+   color: #666;
+   font-size: 20px;
+}
+.contact-banner-heading p{
+   text-align: center;
+   margin-top: 15px;
+}
+.contact-banner-heading p i{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #666;
+}
+
+#chat{
+   padding: 70px 0px;
+}
+ 
+.chat-heading{
+   text-align: center;
+}
+
+
+.chat-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.chat-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.symbol{
+   margin-bottom: 25px;
+}
+
+
+
+.col-details{
+   width: 33.3%;
+   padding: 18px;
+}
+
+.contact-list{
+   padding: 35px;
+   text-align: center;
+   margin-top: 50px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   border-radius: 0px 45px;
+   transition: transform .3s;
+}
+.contact-list:hover{
+   transform: scale(1.1);
+}
+
+.contact-list h3{
+   color: #5a7fc4;
+   font-size: 30px;
+}
+
+.contact-list h4{
+   font-size: 12px;
+}
+
+.col-query{
+   width: 50%;
+   padding: 20px;
+}
+.col-query h2{
+   font-size: 65px;
+   color: #5a7fc4;
+   text-align: center;
+}
+.col-query h4{
+   text-align: center;
+   font-size: 25px;
+   margin-top: 20px;
+}
+.col-query h4 i{
+   margin: 0px 15px;
+   font-size: 25px;
+}
+.contact-form{
+   margin-top: 50px;
+}
+/* ---------------------------------------CONTACT PAGE  END-----------------------------*/
+
+
+
+
+
+/* ---------------------------------------FULL-LOAD PAGE  START-----------------------------*/
+
+.full-load-banner{
+   padding: 70px 0px;
+}
+.col-full-load-banner{
+   width: 50%;
+   padding: 30px;
+}
+.full-load-truck img{
+   width: 100%;
+   border-radius: 0px 50px;
+}
+.full-load-banner-heading h2{
+   font-size: 65px;
+   color: rgba(0, 0, 0, 0.899);
+   text-align: center;
+   
+   border-bottom: 3px solid #5a7fc4;
+}
+.full-load-banner-heading p a{
+   
+   text-decoration: none;
+   color: #666;
+   font-size: 20px;
+}
+.full-load-banner-heading p{
+   text-align: center;
+   margin-top: 15px;
+}
+.full-load-banner-heading p i{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #666;
+}
+
+.col-full-load{
+   width: 50%;
+}
+.full-load-truck img{
+   width: 100%;
+   padding: 20px;
+   border-radius: 0px 45px;
+}
+
+.full-load-list{
+   padding: 22px;
+}
+.full-load-list h3{
+   color: #5a7fc4;
+   font-size: 30px;
+   text-align: center;
+}
+
+.full-load-list p{
+   margin-top: 60px;
+   color: #666;
+   font-size: 20px;
+   text-align: justify;
+   line-height: 30px;
+}
+
+
+/* ---------------------------------------FULL-LOAD PAGE  END-----------------------------*/
+
+
+
+
+/* ---------------------------------------ROUTE PAGE START-----------------------------*/
+
+html{
+   scroll-behavior: smooth;
+}
+.route-banner{
+   padding: 70px 0px;
+}
+.col-route-banner{
+   width: 50%;
+   padding: 30px;
+}
+.route-image img{
+   width: 100%;
+   border-radius: 0px 50px;
+}
+.route-banner-heading h2{
+   font-size: 65px;
+   color: rgba(0, 0, 0, 0.899);
+   text-align: center;
+   
+   border-bottom: 3px solid #5a7fc4;
+}
+.route-banner-heading p a{
+   
+   text-decoration: none;
+   color: #666;
+   font-size: 20px;
+}
+.route-banner-heading p{
+   text-align: center;
+   margin-top: 15px;
+}
+.route-banner-heading p i{
+   margin: 0px 10px;
+   font-size: 20px;
+   color: #666;
+}
+
+.col-route-service{
+   width: 33.3%;
+   padding: 20px;
+}
+.delhi-routes{
+   padding: 18px;
+   border: 2px dotted #5a7fc4;
+   border-radius: 0px 45px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+}
+.delhi-routes a{
+   text-decoration: none;
+   font-size: 25px;
+   color: rgba(0, 0, 0, 0.899);
+}
+.delhi-routes a:hover{
+   color: #5a7fc4;
+   cursor: pointer;
+}
+
+/* Delhi Load Section Start */
+
+
+#delhi-load{
+   padding: 70px 0px;
+}
+ 
+.delhi-load-heading{
+   text-align: center;
+}
+
+
+.delhi-load-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.delhi-load-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.symbol{
+   margin-bottom: 25px;
+}
+
+.col-route-box{
+   width: 50%;
+   padding: 16px;
+}
+.delhi-route-box{
+    margin-top: 25px;
+    border: 2px solid #5a7fc4;
+    border-radius: 0px 45px;
+    padding: 22px;
+}
+.delhi-route-box ul{
+   margin-top: 40px;
+}
+.delhi-route-box ul li a{
+   text-decoration: none;
+   color: #666;
+   font-size: 16px;
+   line-height: 40px;
+
+}
+
+.delhi-route-box ul li a:hover{
+   color: #5a7fc4;
+}
+.delhi-route-box i{
+   margin: 0px 10px;
+}
+.delhi-route-box h2{
+   color: #5a7fc4;
+   font-size: 20px;
+   text-align: center;
+}
+
+/* Delhi Load Section End */
+
+/* ---------------------------------------ROUTE PAGE END-----------------------------*/
+
+
+
+/*---------------------------------------Delhi To Jaipur Section Start-----------------------*/
+
+
+#dltojpr{
+   padding: 70px 0px;
+}
+ 
+.dltojpr-heading{
+   text-align: center;
+}
+
+
+.dltojpr-heading h2{
+   color: #5a7fc4;
+   font-size: 40px;
+   font-weight: 600;
+}
+
+.dltojpr-heading h4{
+   font-size: 25px;
+   margin-top: 12px;
+   font-weight: 600;
+}
+
+.dltojpr-list p{
+   font-size: 20px;
+   margin-top: 40px;
+   color: #666;
+   line-height: 30px;
+   text-align: justify;
+}
+
+.dltojpr-item{
+   text-align: justify;
+   margin-top: 50px;
+}
+.dltojpr-item h4{
+   margin-bottom: 25px;
+}
+.dltojpr-item li{
+   list-style: none;
+   font-size: 20px;
+   font-weight: 500;
+   color: #666;
+   line-height: 30px;
+   
+}
+.dltojpr-item li i{
+   margin-right: 20px;
+   color: #5a7fc4;
+}
+/*---------------------------------------Delhi To Jaipur Section End-----------------------*/

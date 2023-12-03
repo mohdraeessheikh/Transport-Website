@@ -1,0 +1,775 @@
+
+@media screen and (max-width:1350px)
+{
+    .col-route{
+        width: 50%;
+    }
+
+    .col-details{
+        width: 50%;
+    }
+    .full-load-banner-heading h2{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:1260px){
+    .footer-list a{
+        font-size: 14px;
+    }
+    .footer-list p{
+        font-size: 14px;
+    }
+
+    .footer-list i{
+        font-size: 14px;
+    }
+
+    form div input::placeholder{
+        font-size: 14px;
+    }
+
+    form textarea::placeholder{
+        font-size: 14px;
+    }
+    .col-main-banner h1{
+        font-size: 30px;
+    }
+
+    .col-main-banner h2{
+        font-size: 25px;
+    }
+    .col-main-banner form input{
+        width: 70%;
+     }
+}
+
+@media screen and (max-width:1440px) {
+    .col-sub-banner{
+        width: 100%;
+    }
+
+    .col-sub-banner h2{
+        text-align: center;
+    }
+    .truck-sub-banner{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:1040px)
+{
+    .header-item li a{
+        font-size: 18px;
+    }
+    
+    .col-main-banner{
+        width: 100%;
+    }
+    .banner-item{
+        text-align: center;
+    }
+
+    .col-main-banner form input{
+        width: 100%;
+     }
+    .col-service{
+        width: 50%;
+    }
+
+    .services-heading h4{
+        font-size: 22px;
+    }
+
+    .col-footer{
+        width: 50%;
+    }
+    #copyright h4{
+        font-size: 18px;
+    }
+    #copyright h4 a{
+        font-size: 18px;
+    }
+    .col-query h2{
+        font-size: 50px;
+    }
+    .col-query h4{
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:992px)
+{
+    .header-item li a{
+        font-size: 14px;
+    }
+
+    @keyframes banner-truck{
+        0% {right: 0px; top: 0px;}
+        50% {right: 50px; top: 0px;}
+        100% {right: 0px; top: 0px;}
+     }
+
+     .transport-heading h2{
+        font-size: 35px;
+    }
+    .transport-heading h4{
+        font-size: 20px;
+    }
+    
+    .services-heading h2{
+        font-size: 35px;
+    }
+    .services-heading h4{
+        font-size: 20px;
+    }
+
+    .advantages-heading h2{
+        font-size: 35px;
+    }
+    .advantages-heading h4{
+        font-size: 20px;
+    }
+
+    .advantage-item h3{
+        font-size: 25px;
+    }
+    .advantage-item p{
+        font-size: 18px;
+    }
+
+    .col-footer{
+        width: 100%;
+    }
+
+    .about-banner-heading h2{
+        font-size: 50px;
+    }
+
+    .contact-banner-heading h2{
+        font-size: 50px;
+    }
+    .col-choose{
+        width: 50%;
+    }
+   .chat-heading h2{
+    font-size: 30px;
+   }
+   .chat-heading h4{
+    font-size: 22px;
+   }
+   .col-details{
+    width: 100%;
+}
+
+.col-contact{
+    width: 100%;
+}
+
+.col-full-load{
+    width: 100%;
+}
+
+.col-route-service{
+    width: 50%;
+}
+
+.route-banner-heading h2{
+    font-size: 50px;
+}
+
+
+.dltojpr-heading h2{
+
+    font-size: 30px;
+    
+ }
+ .dltojpr-heading h4{
+
+    font-size: 20px;
+    
+ }
+
+ .dltojpr-list p{
+    font-size: 16px;
+ }
+ .dltojpr-item li{
+    font-size: 18px;
+ }
+}
+
+
+@media screen and (max-width:768px)
+{
+    .col-top-bar a{
+        font-size: 12px;
+    }
+
+    .transport-heading h2{
+        font-size: 30px;
+    }
+    .transport-heading h4{
+        font-size: 18px;
+    }
+
+    #transport p{
+        font-size: 14px;
+    }
+
+    .col-service{
+        width: 100%;
+    }
+
+    .col-advantage{
+        width: 100%;
+    }
+
+    @keyframes service-load{
+
+        0% {left: 0px; top: 0px;}
+        50% {left: 380px; top: 0px;}
+        100% {left: 0px; top: 0px;}
+     }
+
+     .col-sub-banner h2{
+        font-size: 40px;
+    }
+
+    .col-route{
+        width: 100%;
+    }
+
+
+    .truck-sub-banner img{
+        width: 100%;
+     }
+    @keyframes truck-sub-banner{
+        0% { left: 0px; top: 0px;}
+        50% {left: 0px; top: 0px;}
+        100%  {left: 0px; top: 0px;}
+     }
+
+     #copyright h4{
+        font-size: 14px;
+    }
+
+    #copyright h4 a{
+        font-size: 14px;
+    }
+
+    .col-about-banner{
+        width: 100%;
+    }
+    .col-contact-banner{
+        width: 100%;
+    }
+    .choose-heading h2{
+        font-size: 30px;
+    }
+    .choose-heading h4{
+        font-size: 22px;
+    }
+
+    .chat-heading h2{
+        font-size: 22px;
+       }
+
+       .chat-heading h4{
+        font-size: 18px;
+       }
+
+       .col-query{
+        width: 100%;
+       }
+
+       .col-query h2{
+        font-size: 35px;
+    }
+    .col-query h4{
+        font-size: 18px;
+    }
+    .col-query h4 i{
+        font-size: 18px;
+    }
+    .col-full-load-banner{
+        width: 100%;
+    }
+
+    .col-route-service{
+        width: 100%;
+    }
+
+    .col-route-box{
+        width: 100%;
+    }
+    .col-route-banner{
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width:712px)
+{
+    .header-item li {
+        margin-top: 14px;
+    }
+
+    @keyframes service-load{
+
+        0% {left: 0px; top: 0px;}
+        50% {left: 310px; top: 0px;}
+        100% {left: 0px; top: 0px;}
+     }
+}
+
+
+@media screen and (max-width:576px)
+{
+
+    .services-heading h4{
+        font-size: 18px;
+    }
+
+    @keyframes service-load{
+
+        0% {left: 0px; top: 0px;}
+        50% {left: 210px; top: 0px;}
+        100% {left: 0px; top: 0px;}
+     }
+    
+    .col-top-bar{
+        width: 100%;
+    }
+
+    .bottom-bar i{
+        display: block;
+        cursor: pointer;
+        font-size: 25px;
+    }
+    
+    .header-item{
+        background-color: #b3c8f0;
+        width: 150px;
+        height: 100vh;
+        position: fixed;
+        right: -200px;
+        top: 67px;
+
+        z-index: 2;
+        padding: 80px 0px;
+        transition: right .4s;
+    }
+
+    .header-item .fa-regular{
+        position: absolute;
+        left: 10px;
+        top: 10px;
+    }
+
+    .bottom-bar .fa-solid{
+        position: absolute;
+        right: 20px;
+        top: 170px;
+    }
+
+    .header-item li {
+        margin: 0px 9px;
+    
+    }
+
+    .header-item li a{
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .col-main-banner h1{
+        font-size: 25px;
+    }
+
+    .col-main-banner h2{
+        font-size: 20px;
+    }
+    .advantages-heading h4{
+        font-size: 18px;
+    }
+
+    .col-sub-banner h2{
+        font-size: 30px;
+    }
+    .routes-heading h4{
+        font-size: 20px;
+    }
+    .routes-heading h2{
+        font-size: 30px;
+    }
+
+    .social i{
+        font-size: 40px;
+    }
+
+    #copyright h4{
+        font-size: 12px;
+    }
+    #copyright h4 a{
+        font-size: 12px;
+    }
+
+    .col-choose{
+        width: 100%;
+    }
+
+    .choose-heading h4{
+        font-size: 20px;
+    }
+
+    .col-query h2{
+        font-size: 30px;
+    }
+    .col-query h4{
+        font-size: 16px;
+    }
+    .col-query h4 i{
+        font-size: 16px;
+    }
+
+    .full-load-banner-heading h2{
+        font-size: 30px;
+    }
+
+    .delhi-load-heading h2{
+        font-size: 26px;
+    }
+    .delhi-load-heading h4{
+        font-size: 20px;
+    }
+
+    .dltojpr-heading h2{
+
+        font-size: 25px;
+        
+     }
+     .dltojpr-heading h4{
+    
+        font-size: 18px;
+        
+     }
+    
+     .dltojpr-list p{
+        font-size: 14px;
+     }
+     .dltojpr-item li{
+        font-size: 16px;
+     }
+}
+
+@media screen and (max-width:468px)
+{
+     
+    .transport-heading h2{
+        font-size: 25px;
+    }
+    .transport-heading h4{
+        font-size: 16px;
+    }
+
+    #transport p{
+        font-size: 12px;
+    }
+
+    .col-main-banner h1{
+        font-size: 20px;
+    }
+
+    .col-main-banner h2{
+        font-size: 16px;
+    }
+    .services-heading h2{
+        font-size: 26px;
+    }
+
+    .services-heading h4{
+        font-size: 12px;
+    }
+
+    .advantages-heading h2{
+        font-size: 26px;
+    }
+
+    .advantages-heading h4{
+        font-size: 12px;
+    }
+
+    .advantage-item p{
+        font-size: 16px;
+    }
+
+    .advantage-item h3{
+        font-size: 20px;
+    }
+    .col-sub-banner h2{
+        font-size: 22px;
+    }
+
+    .routes-heading h4{
+        font-size: 16px;
+    }
+    .routes-heading h2{
+        font-size: 25px;
+    }
+
+    .route-list h5{
+        font-size: 18px;
+    }
+    .load p{
+        font-size: 14px;
+    }
+
+    
+
+    @keyframes service-load{
+
+        0% {left: 80px; top: 0px;}
+        50% {left: 80px; top: 0px;}
+        100% {left: 80px; top: 0px;}
+     }
+
+     .col-footer h2{
+        font-size: 26px;
+     }
+
+     .social i{
+        font-size: 30px;
+    }
+
+    #copyright h4{
+        font-size: 10px;
+    }
+
+    #copyright h4 a{
+        font-size: 10px;
+    }
+
+    .advantage-item h3 i{
+        font-size: 20px;
+    }
+    .contact-banner-heading h2{
+        font-size: 40px;
+    }
+
+    .col-query h2{
+        font-size: 25px;
+    }
+    .col-query h4{
+        font-size: 14px;
+    }
+    .col-query h4 i{
+        font-size: 14px;
+    }
+
+    .contact-banner-heading p a{
+        font-size: 16px;
+    }
+    .full-load-banner-heading p a{
+        font-size: 16px;
+    }
+    .full-load-list p{
+        font-size: 16px;
+    }
+
+
+    .dltojpr-heading h2{
+
+        font-size: 20px;
+        
+     }
+     .dltojpr-heading h4{
+    
+        font-size: 16px;
+        
+     }
+    
+     .dltojpr-list p{
+        font-size: 12px;
+     }
+     .dltojpr-item li{
+        font-size: 14px;
+     }
+}
+
+@media screen and (max-width:425px)
+{
+
+    .transport-heading h2{
+        font-size: 22px;
+    }
+
+    .transport-heading h4{
+        font-size: 14px;
+    }
+    @keyframes service-load{
+
+        0% {left: 60px; top: 0px;}
+        50% {left: 60px; top: 0px;}
+        100% {left: 60px; top: 0px;}
+     }
+    
+     .col-query h2{
+        font-size: 20px;
+    }
+    .col-query h4{
+        font-size: 12px;
+    }
+    .col-query h4 i{
+        font-size: 12px;
+    }
+
+    .col-query form div input::placeholder{
+        font-size: 10px;
+    }
+    .col-query form textarea::placeholder{
+        font-size: 10px;
+    }
+
+    .contact-banner-heading h2{
+        font-size: 30px;
+    }
+
+    .chat-heading h2{
+        font-size: 18px;
+    }
+
+    .chat-heading h4{
+        font-size: 16px;
+    }
+
+    .contact-list h4{
+        font-size: 8px;
+    }
+
+    .full-load-banner-heading h2{
+        font-size: 25px;
+    }
+
+    .full-load-list h3{
+        font-size: 25px;
+    }
+
+    .route-banner-heading h2{
+        font-size: 35px;
+    }
+
+    .route-banner-heading p a{
+        font-size: 18px;
+    }
+
+    .delhi-routes a{
+        font-size: 20px;
+    }
+
+    .delhi-route-box ul li a{
+        font-size: 10px;
+    }
+    .delhi-route-box h2{
+        font-size: 12px;
+    }
+
+    .delhi-load-heading h2{
+        font-size: 20px;
+    }
+    .delhi-load-heading h4{
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width:376px)
+{
+    @keyframes service-load{
+
+        0% {left: 40px; top: 0px;}
+        50% {left: 40px; top: 0px;}
+        100% {left: 40px; top: 0px;}
+     }
+     .transport-heading h2{
+        font-size: 20px;
+    }
+
+     .load h3{
+        font-size: 20px;
+     }
+      
+     .col-main-banner h1{
+        font-size: 14px;
+    }
+
+    .col-main-banner h2{
+        font-size: 14px;
+    }
+     .advantages-heading h2{
+        font-size: 22px;
+    }
+
+    .advantage-item h3{
+        font-size: 14px;
+    }
+    .advantage-item h3 i{
+        font-size: 14px;
+    }
+    .advantage-item p{
+        font-size: 12px;
+    }
+
+    .col-sub-banner h2{
+        font-size: 18px;
+    }
+
+    .routes-heading h4{
+        font-size: 12px;
+    }
+    .routes-heading h2{
+        font-size: 20px;
+    }
+
+    .route-list h5{
+        font-size: 14px;
+    }
+
+    .footer-list a{
+        font-size: 12px;
+    }
+
+    #copyright h4{
+        font-size: 8px;
+    }
+
+    #copyright h4 a{
+        font-size: 8px;
+    }
+
+    .about-banner-heading h2{
+        font-size: 30px;
+    }
+
+    .full-load-banner-heading h2{
+        font-size: 20px;
+    }
+
+    .route-banner-heading h2{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:330px)
+{
+    @keyframes service-load{
+
+        0% {left: 25px; top: 0px;}
+        50% {left: 25px; top: 0px;}
+        100% {left: 25px; top: 0px;}
+     }
+     .transport-heading h2{
+        font-size: 18px;
+    }
+}
+
